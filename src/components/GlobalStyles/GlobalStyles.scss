@@ -1,0 +1,24 @@
+@import 'normalize.css';
+@font-face {
+  font-family: Futura;
+  src: url('../../fonts/Futura_Maxi_CG_Bold_Regular/Futura_Maxi_CG_Bold_Regular.otf');
+}
+
+:root {
+  --primary: hsla(348, 99%, 58%, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Futura', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
